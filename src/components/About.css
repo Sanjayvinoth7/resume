@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Montserrat:wght@300&family=Poppins:ital,wght@0,300;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Montserrat:wght@300;600&family=Poppins:ital,wght@0,300;1,200&display=swap');
+
+
+.about{
+    color:black;
+    position: relative;
+}
+
+.about_container{
+    position: absolute;
+    top: 190px;
+    align-items:center ;
+    left: 270px;
+}
+
+.about_container > h4 > b {
+    letter-spacing: 1px;
+    text-align: left;
+    padding-left: 3px;
+    padding-top: 20px;
+    color:black;
+}
+
+.about_container >a > button{
+    margin-bottom: 30px;
+    text-align: left;
+    margin-left: 5px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+}
+
+.about_container > h1{
+    font-size: 50px;
+    font-family: "Alata",sans-serif; 
+}
+
+.about_container > h4{
+    text-align: center;
+    font-family: "Montserrat",sans-serif; 
+}
+
+.about_resume{
+    color:black;
+    background-color: yellow;
+    font-size:18px;
+    padding:10px 30px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+    margin-right: 20px;
+    border:1px solid black !important;
+}
+
+.about_resume:hover{
+    color:yellow;
+    background-color:black;
+    font-weight: 300;
+}
+
+
+
+.about_work{
+    color:yellow;
+    border:1px solid black !important;
+    background-color:black;
+    font-size:18px;
+    padding:9px 45px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+
+.about_work:hover{
+    color:black;
+    background-color:yellow;
+    font-weight: 300;
+}

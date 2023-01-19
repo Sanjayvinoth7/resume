@@ -1,0 +1,10 @@
+
+.topheader{
+    /* background:url("https://img.freepik.com/premium-vector/yellow-black-banner-background-premium-vector-abstract-graphic-design-banner-pattern-background_475148-514.jpg?w=1380"); */
+    background: url("../images/topheader.png");
+    height:100vh;
+    background-position: center;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    
+}

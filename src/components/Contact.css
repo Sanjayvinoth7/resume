@@ -1,0 +1,58 @@
+.contact{
+    display:flex;
+    flex-direction: column;
+    color:white;
+    justify-content: center;
+    margin:300px 0 200px;
+    align-items:center;
+    padding-top: 100px;
+
+}
+
+.contact > h1 > b >span {
+    color: yellow;
+}
+
+.contact_container{
+border: 1px solid yellow;
+width: 600px;
+height: 200px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 30px;
+margin-top: 20px;
+}
+
+.contact_container > p{
+    font-size: 20px;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-top: 20px;
+   
+}
+
+.contact_container > p > span{
+   color:yellow;
+}
+
+
+.contact_icons  > a {
+    color:white;
+    padding-bottom: 10px;
+}
+
+.instagram{
+    padding: 20px;
+    align-items: center;
+    background-size: contain;
+}
+
+.linkedin{
+    padding: 20px;
+}
+
+.github{
+    padding: 20px;
+}

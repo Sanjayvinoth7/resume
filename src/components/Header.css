@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Sono:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Poppins:ital,wght@0,300;1,200&display=swap');
+
+
+.header{
+    display:flex;
+    align-items: center;
+    color:whitesmoke;
+    background-color: black;
+    top:0;
+    position: sticky;
+    z-index: 2000;
+    border-bottom: 3px solid rgb(255, 255, 0);
+}
+
+.header_left{
+    flex:0.4;
+}
+
+.header_left > h1{
+    text-align: center;
+    font-family: "Alata",sans-serif;
+    letter-spacing: 1px;
+    padding: 20px 0;
+}
+
+.header_left > h1 > span{
+    color:yellow;
+}
+
+.header_right{
+    display:flex;
+    flex:0.6;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header_right > a > h4 {
+    cursor:pointer;
+    font-size: 18px;
+    transition:transform  ease-in-out ;
+    font-family: "Alata",serif;
+    padding: 20px 0;
+    letter-spacing: 1px;
+    
+}
+
+.header_right > a > h4:hover {
+    transform: scale(1.05);
+    background-color:yellow;
+    color:black;
+    padding:5px 20px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    font-family: "Alata",serif;
+    cursor:pointer;
+    font-size: 18px;
+}
